@@ -1,0 +1,191 @@
+[
+  {
+    "permission": "android.permission.CAMERA",
+    "name": "Camera",
+    "description": "Allows the app to take photos and record videos.",
+    "risk": "HIGH",
+    "icon": "camera"
+  },
+  {
+    "permission": "android.permission.RECORD_AUDIO",
+    "name": "Microphone",
+    "description": "Allows the app to record audio.",
+    "risk": "HIGH",
+    "icon": "mic"
+  },
+  {
+    "permission": "android.permission.ACCESS_FINE_LOCATION",
+    "name": "Precise Location",
+    "description": "Access your exact GPS location.",
+    "risk": "HIGH",
+    "icon": "location"
+  },
+  {
+    "permission": "android.permission.ACCESS_COARSE_LOCATION",
+    "name": "Approximate Location",
+    "description": "Access your approximate location.",
+    "risk": "SENSITIVE",
+    "icon": "location"
+  },
+  {
+    "permission": "android.permission.READ_SMS",
+    "name": "Read SMS",
+    "description": "Allows reading your text messages.",
+    "risk": "HIGH",
+    "icon": "sms"
+  },
+  {
+    "permission": "android.permission.SEND_SMS",
+    "name": "Send SMS",
+    "description": "Allows sending SMS messages.",
+    "risk": "HIGH",
+    "icon": "sms"
+  },
+  {
+    "permission": "android.permission.RECEIVE_SMS",
+    "name": "Receive SMS",
+    "description": "Allows receiving SMS messages.",
+    "risk": "HIGH",
+    "icon": "sms"
+  },
+  {
+    "permission": "android.permission.READ_CONTACTS",
+    "name": "Read Contacts",
+    "description": "Allows access to your contacts.",
+    "risk": "HIGH",
+    "icon": "contacts"
+  },
+  {
+    "permission": "android.permission.WRITE_CONTACTS",
+    "name": "Modify Contacts",
+    "description": "Allows editing your contacts.",
+    "risk": "SENSITIVE",
+    "icon": "contacts"
+  },
+  {
+    "permission": "android.permission.READ_PHONE_STATE",
+    "name": "Phone State",
+    "description": "Access device and SIM information.",
+    "risk": "HIGH",
+    "icon": "phone"
+  },
+  {
+    "permission": "android.permission.CALL_PHONE",
+    "name": "Make Calls",
+    "description": "Allows making phone calls without user interaction.",
+    "risk": "HIGH",
+    "icon": "phone"
+  },
+  {
+    "permission": "android.permission.READ_CALL_LOG",
+    "name": "Call Logs",
+    "description": "Access your call history.",
+    "risk": "HIGH",
+    "icon": "phone"
+  },
+  {
+    "permission": "android.permission.WRITE_CALL_LOG",
+    "name": "Modify Call Logs",
+    "description": "Edit your call history.",
+    "risk": "SENSITIVE",
+    "icon": "phone"
+  },
+  {
+    "permission": "android.permission.CAMERA",
+    "name": "Camera",
+    "description": "Allows taking photos and recording video.",
+    "risk": "HIGH",
+    "icon": "camera"
+  },
+  {
+    "permission": "android.permission.READ_EXTERNAL_STORAGE",
+    "name": "Read Storage",
+    "description": "Access files on your device.",
+    "risk": "HIGH",
+    "icon": "storage"
+  },
+  {
+    "permission": "android.permission.WRITE_EXTERNAL_STORAGE",
+    "name": "Write Storage",
+    "description": "Modify or delete files on your device.",
+    "risk": "SENSITIVE",
+    "icon": "storage"
+  },
+  {
+    "permission": "android.permission.INTERNET",
+    "name": "Internet",
+    "description": "Allows access to the internet.",
+    "risk": "NORMAL",
+    "icon": "network"
+  },
+  {
+    "permission": "android.permission.ACCESS_NETWORK_STATE",
+    "name": "Network State",
+    "description": "Check network connectivity.",
+    "risk": "NORMAL",
+    "icon": "network"
+  },
+  {
+    "permission": "android.permission.ACCESS_WIFI_STATE",
+    "name": "WiFi State",
+    "description": "Check WiFi connectivity.",
+    "risk": "NORMAL",
+    "icon": "network"
+  },
+  {
+    "permission": "android.permission.WAKE_LOCK",
+    "name": "Wake Lock",
+    "description": "Keep the device awake.",
+    "risk": "NORMAL",
+    "icon": "system"
+  },
+  {
+    "permission": "android.permission.VIBRATE",
+    "name": "Vibration",
+    "description": "Control vibration.",
+    "risk": "NORMAL",
+    "icon": "system"
+  },
+  {
+    "permission": "android.permission.SYSTEM_ALERT_WINDOW",
+    "name": "Overlay",
+    "description": "Display content over other apps (potential phishing risk).",
+    "risk": "HIGH",
+    "icon": "warning"
+  },
+  {
+    "permission": "android.permission.RECEIVE_BOOT_COMPLETED",
+    "name": "Auto Start",
+    "description": "Run automatically when device starts.",
+    "risk": "SENSITIVE",
+    "icon": "system"
+  },
+  {
+    "permission": "android.permission.FOREGROUND_SERVICE",
+    "name": "Foreground Service",
+    "description": "Run persistent background tasks.",
+    "risk": "SENSITIVE",
+    "icon": "system"
+  },
+  {
+    "permission": "android.permission.REQUEST_INSTALL_PACKAGES",
+    "name": "Install Apps",
+    "description": "Allows installing apps from unknown sources.",
+    "risk": "HIGH",
+    "icon": "install"
+  },
+  {
+    "permission": "android.permission.USE_BIOMETRIC",
+    "name": "Biometric",
+    "description": "Use fingerprint or face authentication.",
+    "risk": "SENSITIVE",
+    "icon": "security"
+  },
+  {
+    "permission": "android.permission.POST_NOTIFICATIONS",
+    "name": "Notifications",
+    "description": "Send notifications.",
+    "risk": "NORMAL",
+    "icon": "notification"
+  }
+]
